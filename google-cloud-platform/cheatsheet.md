@@ -272,7 +272,13 @@ to update the stub type to GreetingServiceStub:
       }
     });
 
-Useful links:
+## SQL
+
+    # codelab-0 is the name of the MySQL database instance created
+    gcloud beta sql connect codelab-0 --user=root
+    gcloud beta sql instances delete codelab-0
+
+## Useful links
 
 - https://cloud.google.com/shell/docs/
 - https://cloud.google.com/sdk/gcloud/
@@ -282,3 +288,4 @@ Useful links:
 - https://github.com/saturnism/grpc-java-by-example
 - https://github.com/saturnism/grpc-java-by-example/tree/master/streaming-example
 - https://cloud.google.com/endpoints/docs/grpc/transcoding
+- https://cloud.google.com/sql/docs/
